@@ -11,7 +11,9 @@ arr = np.array(my_data)
 d = {'a':23 , 'b':34 , 'c':343}
 print(labels , my_data , arr , d)
 Series = pd.Series(data = my_data)
+
 print(Series)
+print(f'This is Python Series:....{Series}')
 
 
 
