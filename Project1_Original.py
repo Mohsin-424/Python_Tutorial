@@ -28,4 +28,19 @@ test_board = ['# ' , 'X' , 'O','X' , 'O','X' , 'O','X' , 'O' ,'X' ]
 
 print(display_board(test_board))
 
+#  Function to print player_input()
+def player_input():
+    marker = ''
+    while marker != 'X' and marker != 'O':
+        marker = input("Choose input markter: X or O")
+    player1 = marker
+    if player1 == 'X':
+        player2 = 'O'
+    else:
+        player2 = 'X'
+    return(player1,player2)
+result = player_input()
+print(result)
 
+
+        
