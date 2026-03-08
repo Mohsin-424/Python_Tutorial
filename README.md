@@ -1,1 +1,1 @@
-Python Tutorial is presented  her ein detail with many problems solved.
+Python Tutorial is presented  here indetail with many problems solved.
